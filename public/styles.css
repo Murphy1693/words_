@@ -1,0 +1,89 @@
+body {
+  font-family: sans-serif;
+}
+
+/* .leaderboard {
+  float: right;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 1px solid black;
+  font-size: 14px;
+  width: 40rem;
+  height: 25rem;
+  background: white;
+} */
+
+.leaderboard, .word-list-container {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 300px;
+  min-height: 400px;
+  background-color: lavender;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.leaderboard-entry {
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.leaderboard-entry-name {
+  padding-left: 20px;
+  width: 20%;
+  margin: auto;
+  margin-left: 0;
+}
+
+.leaderboard-entry-score, .leaderboard-entry-count {
+  margin: auto;
+  margin-left: 0;
+}
+
+.timer-container {
+  position: absolute,
+
+}
+
+.constraint {
+  padding-bottom: 20px;
+}
+
+.show-entry {
+
+}
+
+.show-entry-box {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+
+table th {
+  background-color: hsl(263 55% 52%);
+}
+
+.header {
+  text-align: center;
+  color: white;
+}
+
+.definitions-container>:first-child {
+  padding-left: 20px;
+}
+
+.definitions-container>:last-child {
+  padding-right: 20px;
+}
